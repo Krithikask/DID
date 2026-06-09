@@ -1,16 +1,23 @@
 {
-  "assertionMethod": [...],
-  "service": [...],
-  "id": "http://Mimoto-Service:8099/v1/mimoto/.well-known/did.json",
+  "assertionMethod": [
+    "did:web:krithikask.github.io:DID:dev1"
+  ],
+  "service": [],
+  "id": "did:web:krithikask.github.io:DID:dev1",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "z6MkmRbHff72tazRTnnu35qh5U7DLn25uWTg7PAiKhyaALH6",
-      "controller": "http://Mimoto-Service:8099/v1/mimoto/.well-known/did.json",
-      "id": "http://Mimoto-Service:8099/v1/mimoto/.well-known/did.json#Y01feYRR7as-n4Y7TPCVKcwYwTxJb-unBbaAp0o_z4Y",
+      "publicKeyMultibase": "z6MkkWkUb6bgej4jDbvMF3U2gJmwj9NRcmNyovLJ2PpNrKnM",
+      "controller": "did:web:krithikask.github.io:DID:dev1",
+      "id": "did:web:krithikask.github.io:DID:dev1#ORfSvNsZsQVPdTyrhqStG5JnX7FR-68AC_HnVORB4Jw",
       "type": "Ed25519VerificationKey2020",
       "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
     }
   ],
-  "@context": ["https://www.w3.org/ns/did/v1"],
-  "authentication": ["http://Mimoto-Service:8099/v1/mimoto/.well-known/did.json"]
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "alsoKnownAs": [],
+  "authentication": [
+    "did:web:krithikask.github.io:DID:dev1"
+  ]
 }
